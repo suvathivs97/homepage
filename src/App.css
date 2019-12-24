@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/*mobile*/
+@media screen and (max-width: 768px) {
+  .webview {
+  display: none;
+  }
+  }
+   
+  /*website*/
+  @media screen and (min-width: 1024px) {
+  .mobview {
+  display: none;
+  font-size: "14px";
+  }
+  }/*mobile*/
