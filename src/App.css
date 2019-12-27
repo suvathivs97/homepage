@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+  
 }
 
 .App-logo {
@@ -24,10 +26,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
+.Container { /* You Can Name it what you want*/
+  margin-right:16px;
+  }
+  .Container input:last-child{
+  margin-right:0px;
+  /*so the last one dont push the div thas giving the space only between the inputs*/
+  }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,23 +46,20 @@
  @media screen and (max-width: 768px) {
   .webview {
   display: none;
+ 
   }
   }
-   
+
   /*website*/
   @media screen and (min-width: 1024px) {
   .mobview {
   display: none;
   font-size: "14px";
+  overflow-x:hidden;
   }
-  .card-heading {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.14;
-    /* letter-spacing: .2px; */
-    color: #251454;
-    margin: 5px 0 4px;
-  }
+  .no-outline:focus {
+    outline: none;
+    }
 }
   
   
