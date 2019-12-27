@@ -49,7 +49,11 @@
  
   }
   }
+  .carousel-item{
+    padding-left: 60px;
 
+  } 
+  
   /*website*/
   @media screen and (min-width: 1024px) {
   .mobview {
@@ -60,6 +64,25 @@
   .no-outline:focus {
     outline: none;
     }
+    .innerbox{
+      height: 32px;
+    background-color: #03A685;
+    color: white;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: 500;
+    
+    box-sizing: border-box;
+    }
+    .wishlist{
+      max-width: 880px;
+      margin: 130px auto 70px auto;
+    text-align: center;
+    
+    
+    }
+
 }
   
   

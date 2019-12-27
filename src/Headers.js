@@ -21,9 +21,23 @@ const menu = (
     </Menu.Item>
     <hr></hr>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
-        2nd menu item
+      <a style={{hover:"darkblack"}} >
+        Orders 
       </a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+        wishlist
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+        Gift Cards
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+        Contact Us
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+        Myntra Insider
+      </a>
+
+
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="http://www.tmall.com/">
@@ -98,13 +112,21 @@ class  Headers extends React.Component {
             </span>
           }
         >
-          <Menu.ItemGroup title="Item 1">
-            <Menu.Item key="setting:1">Option 1</Menu.Item>
-            <Menu.Item key="setting:2">Option 2</Menu.Item>
+          <Menu.ItemGroup title="Topwear">
+            <Menu.Item key="setting:1">ggh</Menu.Item>
+            <Menu.Item key="setting:2">gcchgbgchgknkbj</Menu.Item>
           </Menu.ItemGroup>
-          <Menu.ItemGroup title="Item 2">
-            <Menu.Item key="setting:3">Option 3</Menu.Item>
-            <Menu.Item key="setting:4">Option 4</Menu.Item>
+          <Menu.ItemGroup title="fvhvjhgyh">
+            <Menu.Item key="setting:3">fhvghgyhb</Menu.Item>
+            <Menu.Item key="setting:4">gcgvfuyhyuyhjgyh</Menu.Item>
+          </Menu.ItemGroup>
+          <Menu.ItemGroup title="Topwear" style={{mode:'vertical'}}>
+            <Menu.Item key="setting:1">ggh</Menu.Item>
+            <Menu.Item key="setting:2">gcchgbgchgknkbj</Menu.Item>
+          </Menu.ItemGroup>
+          <Menu.ItemGroup title="fvhvjhgyh">
+            <Menu.Item key="setting:3">fhvghgyhb</Menu.Item>
+            <Menu.Item key="setting:4">gcgvfuyhyuyhjgyh</Menu.Item>
           </Menu.ItemGroup>
           </SubMenu>
           <SubMenu
@@ -193,14 +215,14 @@ class  Headers extends React.Component {
   <Row>
      <Col span={3}>
         <img src ='/wishlist.png'style={{height:'22px',marginLeft:'20px'}}/>
-        <Nav.Link href="#home"style={{fontSize:'16px',fontWeight: 500}}>
+        <Nav.Link href="/Wishlist"style={{fontSize:'16px',fontWeight: 500}}>
               Wishlist</Nav.Link>
       </Col>
   </Row>
   <Row>
      <Col span={3}>
        <img src ='/bag.png'style={{height:'26px',marginLeft:'10px'}}/>
-       <Nav.Link href="#home"style={{fontSize:'16px',fontWeight: 500}}>
+       <Nav.Link href="/Bag"style={{fontSize:'16px',fontWeight: 500}}>
             Bag</Nav.Link>
      </Col>
  </Row>
